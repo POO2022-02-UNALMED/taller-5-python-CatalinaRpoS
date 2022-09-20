@@ -14,7 +14,7 @@ class Animal:
         return "desplazarse"
     
     def toString(self):
-        text = "Mi nombre es " + self._nombre + ", tengo una edad de " + self._edad + ", habito en " + self._habitat + " y mi genero es " + self._genero
+        text = "Mi nombre es " + self._nombre + ", tengo una edad de " + str(self._edad) + ", habito en " + self._habitat + " y mi genero es " + self._genero
         if self._zona is None:
             return text
         else:
